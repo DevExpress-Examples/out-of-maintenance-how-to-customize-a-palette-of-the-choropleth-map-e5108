@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Dashboard" />
+  <DataConnections>
+    <DataConnection Name="countriesDBConnection" ProviderKey="Access97">
+      <Parameters>
+        <Parameter Name="database" Value="..\..\Data\countriesDB.mdb" />
+        <Parameter Name="read only" Value="1" />
+        <Parameter Name="generateConnectionHelper" Value="false" />
+      </Parameters>
+    </DataConnection>
+  </DataConnections>
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="Data Source 1">
+      <DataProvider DataConnection="countriesDBConnection" SupportSql="true">
+        <Selection>
+          <Table Name="Countries">
+            <Columns>
+              <Column Name="Id" />
+              <Column Name="Code2" />
+              <Column Name="RegionId" />
+              <Column Name="Country" />
+              <Column Name="OfficialName" />
+              <Column Name="Currency" />
+              <Column Name="Capital" />
+              <Column Name="BFlag" />
+              <Column Name="Area" />
+              <Column Name="GDP" />
+              <Column Name="Population" />
+              <Column Name="Languages" />
+              <Column Name="Religions" />
+            </Columns>
+          </Table>
+        </Selection>
+      </DataProvider>
+    </DataSource>
+  </DataSources>
+  <Items>
+    <ChoroplethMap ComponentName="choroplethMapDashboardItem1" Name="Map 1" ShowCaption="false" DataSource="dataSource1" AttributeName="NAME">
+      <DataItems>
+        <Dimension DataMember="Country" Name="DataItem0" />
+        <Measure DataMember="Population" Name="DataItem1" />
+      </DataItems>
+      <ViewArea TopLatitude="83.645130000000009" BottomLatitude="-55.611829999999962" LeftLongitude="-179.99999999999997" CenterPointLatitude="44.089080744803773" CenterPointLongitude="10.098071356993813" />
+      <AttributeDimension UniqueName="DataItem0" />
+      <Maps>
+        <ValueMap>
+          <Value Name="DataItem1" />
+          <UniformScale LevelsCount="10" />
+        </ValueMap>
+      </Maps>
+    </ChoroplethMap>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Orientation="Vertical">
+      <LayoutItem DashboardItem="choroplethMapDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>
