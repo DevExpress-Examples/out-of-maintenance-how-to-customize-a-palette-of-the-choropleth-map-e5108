@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Collections.Generic
+﻿Imports System.Collections.Generic
 Imports System.Drawing
 Imports DevExpress.DashboardCommon
 Imports DevExpress.XtraEditors
@@ -7,6 +6,7 @@ Imports DevExpress.XtraEditors
 Namespace Dashboard_ChoroplethMapCustomPalette
 	Partial Public Class Form1
 		Inherits XtraForm
+
 		Public Sub New()
 			InitializeComponent()
 			' Loads a dashboard that contains a choropleth map with the default palette.
@@ -29,16 +29,16 @@ Namespace Dashboard_ChoroplethMapCustomPalette
 			customScale.IsPercent = False
 
 			' Specifies custom colors and corresponding range stops.   
-            customColors.Add(Color.LightBlue)
-            customColors.Add(Color.SkyBlue)
-            customColors.Add(Color.LightCoral)
-            customColors.Add(Color.Tomato)
-            customColors.Add(Color.Maroon)
-            rangeStops.Add(100000)
-            rangeStops.Add(1000000)
-            rangeStops.Add(10000000)
-            rangeStops.Add(100000000)
-            rangeStops.Add(1000000000)
+			customColors.Add(Color.LightBlue)
+			rangeStops.Add(100000)
+			customColors.Add(Color.SkyBlue)
+			rangeStops.Add(1000000)
+			customColors.Add(Color.LightCoral)
+			rangeStops.Add(10000000)
+			customColors.Add(Color.Tomato)
+			rangeStops.Add(100000000)
+			customColors.Add(Color.Maroon)
+			rangeStops.Add(1000000000)
 
 			' Adds custom colors and range stops to a custom palette and corresponding custom scale.
 			customPalette.Colors.AddRange(customColors)

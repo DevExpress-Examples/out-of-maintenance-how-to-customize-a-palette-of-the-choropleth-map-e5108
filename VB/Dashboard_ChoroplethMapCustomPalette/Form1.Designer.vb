@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Namespace Dashboard_ChoroplethMapCustomPalette
+﻿Namespace Dashboard_ChoroplethMapCustomPalette
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -27,7 +25,7 @@ Namespace Dashboard_ChoroplethMapCustomPalette
 		Private Sub InitializeComponent()
 			Me.components = New System.ComponentModel.Container()
 			Me.dashboardViewer1 = New DevExpress.DashboardWin.DashboardViewer(Me.components)
-			CType(Me.dashboardViewer1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.dashboardViewer1, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' dashboardViewer1
@@ -35,17 +33,17 @@ Namespace Dashboard_ChoroplethMapCustomPalette
 			Me.dashboardViewer1.Dock = System.Windows.Forms.DockStyle.Fill
 			Me.dashboardViewer1.Location = New System.Drawing.Point(0, 0)
 			Me.dashboardViewer1.Name = "dashboardViewer1"
-			Me.dashboardViewer1.Size = New System.Drawing.Size(826, 473)
+			Me.dashboardViewer1.Size = New System.Drawing.Size(630, 448)
 			Me.dashboardViewer1.TabIndex = 0
 			' 
 			' Form1
 			' 
 			Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
 			Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-			Me.ClientSize = New System.Drawing.Size(826, 473)
+			Me.ClientSize = New System.Drawing.Size(630, 448)
 			Me.Controls.Add(Me.dashboardViewer1)
 			Me.Name = "Form1"
-			CType(Me.dashboardViewer1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.dashboardViewer1, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 
 		End Sub
