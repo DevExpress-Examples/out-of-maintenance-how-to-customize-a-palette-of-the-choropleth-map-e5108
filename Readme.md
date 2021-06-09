@@ -11,3 +11,7 @@ This example demonstrates how to customize the [Choropleth map palette](https://
 Map shapes are colored with custom colors. Colors and endpoint ranges are retrieved from the lists created at runtime.
 
 ![screenshot](/images/screenshot.png)
+
+## Documentation
+
+[Choropleth Map - Coloring](https://docs.devexpress.com/Dashboard/16486)
