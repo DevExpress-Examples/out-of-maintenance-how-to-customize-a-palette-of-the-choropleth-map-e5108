@@ -15,3 +15,7 @@ Map shapes are colored with custom colors. Colors and endpoint ranges are retrie
 ## Documentation
 
 - [Choropleth Map - Coloring](https://docs.devexpress.com/Dashboard/16486)
+
+## More Examples
+
+- [How to color dashboard item elements in the WinForms Viewer](https://github.com/DevExpress-Examples/how-to-color-dashboard-item-elements-in-the-winforms-viewer-t188083)
