@@ -14,4 +14,4 @@ Map shapes are colored with custom colors. Colors and endpoint ranges are retrie
 
 ## Documentation
 
-[Choropleth Map - Coloring](https://docs.devexpress.com/Dashboard/16486)
+- [Choropleth Map - Coloring](https://docs.devexpress.com/Dashboard/16486)
