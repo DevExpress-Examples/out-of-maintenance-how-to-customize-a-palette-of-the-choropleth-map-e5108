@@ -6,7 +6,7 @@
 # How to Customize the Choropleth Map Palette
 
 
-This example demonstrates how to customize the [Choropleth map palette](https://docs.devexpress.com/Dashboard/16486) 
+This example demonstrates how to customize the [Choropleth map palette](https://docs.devexpress.com/Dashboard/16486).
 
 Map shapes are colored with custom colors. Colors and endpoint ranges are retrieved from the lists created at runtime.
 
