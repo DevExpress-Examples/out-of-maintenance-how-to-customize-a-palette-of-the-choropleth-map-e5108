@@ -9,7 +9,7 @@
 This example demonstrates how to customize the [Choropleth map palette](https://docs.devexpress.com/Dashboard/16486).
 
 <!-- default file list -->
-## Files to look at*:
+## Files to Look At:
 
 * [Form1.cs](./CS/Dashboard_ChoroplethMapCustomPalette/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_ChoroplethMapCustomPalette/Form1.vb))
 <!-- default file list end -->
