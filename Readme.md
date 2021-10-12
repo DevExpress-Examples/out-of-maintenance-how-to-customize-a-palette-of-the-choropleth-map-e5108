@@ -4,12 +4,12 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-## How to Customize the Choropleth Map Palette
+## Dashboard for Winforms - How to Customize the Choropleth Map Palette
 
 This example demonstrates how to customize the [Choropleth map palette](https://docs.devexpress.com/Dashboard/16486).
 
 <!-- default file list -->
-## Files to Look At:
+## Files to Look At
 
 * [Form1.cs](./CS/Dashboard_ChoroplethMapCustomPalette/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_ChoroplethMapCustomPalette/Form1.vb))
 <!-- default file list end -->
@@ -20,8 +20,8 @@ Map shapes are colored with custom colors. Colors and endpoint ranges are retrie
 
 ## Documentation
 
-- [Choropleth Map - Coloring](https://docs.devexpress.com/Dashboard/16486)
+* [Choropleth Map - Coloring](https://docs.devexpress.com/Dashboard/16486)
 
 ## More Examples
 
-- [How to color dashboard item elements in the WinForms Viewer](https://github.com/DevExpress-Examples/how-to-color-dashboard-item-elements-in-the-winforms-viewer-t188083)
+* [How to color dashboard item elements in the WinForms Viewer](https://github.com/DevExpress-Examples/how-to-color-dashboard-item-elements-in-the-winforms-viewer-t188083)
